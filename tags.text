@@ -41,3 +41,17 @@ rm <filename> --> removes fiename from given directory
 
 rm -rf .git --> removes git files from a given directory
 
+#####################################################################
+
+types of commits
+1. checkout commit -------->  we go back in time to see the state of editor before. We can easily revert back to initial stage using git checkout master
+
+command::::::::::::::: git checkout <commit code> 
+return:::::::::::::::: git checkout master 
+
+2. revert commit -----------> we delete a particular commit 
+syntax :::::::::::: git revert <commit code>
+                    press "shift + :" and then type "wq"
+
+3. reset commit ------------> it deletes all commits after entered commit
+

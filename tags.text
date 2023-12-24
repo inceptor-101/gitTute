@@ -55,3 +55,11 @@ syntax :::::::::::: git revert <commit code>
 
 3. reset commit ------------> it deletes all commits after entered commit
 
+#################################################################
+
+branches:::
+
+for creating new branch -------------> git branch featureNew
+for moving to new branch ------------> git checkout featureNew
+for seeing all branches  -----------> git branch -a
+for deleting a branch -------------> git branch -D featureNew

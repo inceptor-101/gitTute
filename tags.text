@@ -1,0 +1,43 @@
+git log --> prints the list of all commits
+
+git log --oneline --> prints only commit messages
+
+git add <filename> --> for staging the 'filename' filename
+
+git add . --> add all staged files at once 
+
+# these are the commands used to create git username and user email
+
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+# access to username and useremail
+
+git config user.name
+git config user.email
+
+git commit -m "message" --> used to commit all staged files
+{choose the commit message carefully}
+
+git status --> prints the list of staged and unstaged files 
+
+git init --> initializes git respository in the given directory
+
+git rm --cached <fiename> --> unstages the filename 
+
+// command prompt as administrator messages 
+
+cd <directory> --> changes directory
+
+cd ..  --> comes one step out of given directory
+
+mkdir <directory> --> creates directory within given directory
+
+rmdir <diretory> --> removes directory
+
+touch <filename> --> creates files with name 'filename' in given directory
+
+rm <filename> --> removes fiename from given directory
+
+rm -rf .git --> removes git files from a given directory
+
